@@ -1,0 +1,342 @@
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+  
+    src: local("Gilroy"),
+
+         url("/fonts/Gilroy-Regular.woff2") format("woff2"),
+         url("/fonts/Gilroy-Regular.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "Gilroy2";
+    font-style: bold;
+  
+    src: local("Gilroy2"),
+
+         url("/fonts/Gilroy-Medium.woff2") format("woff2"),
+         url("/fonts/Gilroy-Medium.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "TTNorms";
+    font-style: normal;
+  
+    src: local("TTNorms"),
+
+         url("/fonts/TTNorms-Light.woff2") format("woff2"),
+         url("/fonts/TTNorms-Light.woff") format("woff"),
+  }
+  
+  .head {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 5fr;
+    margin-top: 4%;
+    margin-bottom: 60px;
+  }
+
+  .def {
+    font-family: "Gilroy";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #858585;
+}
+
+  .image-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .add-button {
+    display: grid;
+    grid-template-columns: 10fr 180px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .add {
+    font-family: "Gilroy", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #105492;
+    text-decoration: none;
+
+    width: 180px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #105492;
+    border-radius: 5px;
+
+    text-align: center;
+    line-height: 3em;
+  }
+
+  .add:hover {
+    background: #105492;
+    color: #ffffff;
+  }
+
+  .shape {
+    border-bottom: 1px solid #105492;
+  }
+
+  h2 {
+    font-family: "Gilroy2", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #105492;
+  }
+
+  h3 {
+    font-family: "Gilroy2", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 3px;
+    color: #105492;
+
+    margin-bottom: 25px;
+  }
+
+  body {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #105492;
+
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 0%;
+  }
+
+  /* footer {
+    padding-top: 30px;
+    margin-left: -10%;
+    position: static;
+    bottom: -10px;
+    left: 0;
+  } */
+
+  .wave {
+    margin-bottom: -10px;
+    padding-top: 0px;
+    margin-left: -10%;
+    position: static;
+    /* bottom: -10px; */
+    left: 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: separate;
+    /* border-spacing: 45px 0px; */
+    border-spacing: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.07);
+    /* line-height: 200%; */
+  }
+
+  tr {
+    text-align: left;
+    font-size: 16px;
+    line-height: 70px;
+  }
+
+  th {
+    padding-left: 40px;
+    padding-bottom: 0px;
+  }
+
+  td {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+  }
+
+  #edit {
+    padding-top: 25px;
+  }
+
+  #trash {
+    padding-top: 26px;
+  }
+
+  #more {
+    padding-right: 40px;
+    padding-bottom: 2px;
+  }
+
+  .second-line {
+    background-color: #F6F6F6;
+    align-items: center;
+  }
+
+  .cap {
+    background-color: #105492;
+  }
+
+  .fio {
+    width: 300px;
+  }
+
+  /* новый юзер */
+
+  .form{
+    max-width: 1267px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.07);
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding: 30px 0 40px 50px; */
+  }
+
+  input[type="text"] {
+    width: 220px;
+    height: 46px;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #105492;
+
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #105492;
+
+    margin-bottom: 20px;
+
+    /* padding-left: 15px; */
+    /* margin-right: 15px; */
+  }
+
+  input[type="submit"] {
+      width: 168px;
+      height: 50px;
+      background: #105492;
+      border: 0 none;
+      /* cursor: pointer; */
+      border-radius: 5px;
+
+      text-align: center;
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      color: #ffffff;
+  }
+
+  .first {
+    /* margin-top: 40px; */
+    display: grid;
+    grid-template-columns: 790px 220px 200px;
+  }
+
+  .first_input {
+    display: grid;
+    grid-template-columns: 250px 250px 290px 220px 70px 130px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .second {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 290px;
+  }
+
+  .parametry {
+    display: grid;
+    grid-template-columns: 250px 250px 290px 220px;
+  }
+
+  #dr {
+    width: 150px;
+  }
+
+  .foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  /* информация о пользователе */
+
+  /* .info {
+    max-width: 1267px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.07);
+    padding-left: 40px;
+    padding-top: 40px;
+  } */
+
+
+
+  .name {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  /* выбор графика для вывода */
+
+  .graphics {
+    /* margin-top: 50px; */
+    background-color: #105492;
+  }
+
+  .choice {
+    font-family: "Gilroy", sans-serif;
+    font-style: light;
+    font-size: 18px;
+    color:#ffffff;
+  }
+
+  .patient_actions {
+    display: grid;
+    grid-template-columns: 500px 300px 500px;
+  }
+
+  .test {
+    text-align: center;
+  }
+
+  .graph {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 10fr 180px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .parametr {
+    padding-left: 0px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+
+  .parametr:hover {
+    /* background: #dddddd; */
+    background: #5a8bb9;
+  }
+
+  /* .list {
+    
+  }
+
+  #myChart {
+
+  } */
+
+  /* .canvas {
+    width: 100%;
+    height: 200px
+  } */
+
+  /* #new_graphic {
+    margin-bottom: 100px;
+  } */
